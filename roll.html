@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>抽奖</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/wrap.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="content clear-float">
+      <div class="left">
+        <div class="left-content">
+          <div class="bottom">
+            <div id="people" class="people clear-float"></div>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <img class="luck-text" src="img/luck-text.png">
+        <img class="luck-img" src="img/luck.png">
+        <img class="money-left-2" src="img/money-left-2.png">
+        <div class="moneys">
+          <!-- money -->
+          <img class="money-right" src="img/money-right.png">
+          <img class="money-left-1" src="img/money-left-1.png">
+        </div>
+        <div class="middle-content">
+          <!-- prize  icon -->
+          <div class="icon-top-little"></div>
+          <div class="icon-bottom-little"></div>
+          <div class="icon-left-little"></div>
+          <div class="icon-right-little"></div>
+
+          <div class="top bold">
+            <ul>
+              <li><span>奖项 : </span><span id="type" class="prize5"></span></li>
+              <li><span>名额 : </span><span id="num" class="prize"></span><span> 名</span></li>
+              <li><span>人数 : </span><span id="rest" class="prize rest"></span><span> 人</span></li>
+            </ul>
+            <img class="shake" src="img/shake.png">
+          </div>
+          <div id="random" class="random bold"></div>
+          <div id="name" class="name bold"></div>
+          <div id="btn" class="btn bold start">现在开奖</div>
+          <div id="cancel" class="btn bold">删除</div>
+        </div>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+            <ul class="title clear-float">
+              <li>奖项</li>
+              <li>名额</li>
+              <li>号码</li>
+            </ul>
+            <span class="gaps"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- window icons -->
+    <div class="icon-wrap">
+      <div class="icon-top"></div>
+      <div class="icon-bottom"></div>
+      <div class="icon-left"></div>
+      <div class="icon-right"></div>
+      <div class="icon-left-top icon light"></div>
+      <div class="icon-right-top icon"></div>
+      <div class="icon-left-bottom icon light"></div>
+      <div class="icon-right-bottom icon"></div>
+    </div>
+  </div>
+  <div class="floor"></div>
+  <div class="star-light"></div>
+  <div class="mes-tip">
+    <div class="mes-num"></div>
+    <p class="mes-p">恭喜您中奖啦</p>
+    <div class="mes-name"></div>
+    <div class="mes-btn">抽取下一个</div>
+  </div>
+  <!-- <audio src="media/roll.mp3" id="roll" controls="controls" loop="false" hidden="true" preload="auto"></audio>
+  <audio src="media/luck.mp3" id="luck" controls="controls" loop="false" hidden="true" preload="auto"></audio> -->
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/list.js"></script>
+  <script src="js/style.js"></script>
+  <script src="js/roll.js"></script>
+</body>
+
+</html>

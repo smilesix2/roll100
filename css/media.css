@@ -1,0 +1,119 @@
+@media only screen and (min-device-width: 1680px) and (max-device-width:1919px) {
+	.people div {
+		margin: 3px 7px;
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 20px;
+	}
+
+	.people .peopleGet {
+		height: 36px;
+		line-height: 48px;
+	}
+
+	.mes-tip {
+		width: 922px;
+		height: 792px;
+	}
+
+	.mes-name {
+		font-size: 40px;
+		line-height: 75px;
+	}
+
+	.mes-btn {
+		line-height: 75px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.people div {
+		margin: 3px 7px;
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+		font-size: 18px;
+	}
+
+	.people .peopleGet {
+		height: 31px;
+		line-height: 42px;
+	}
+
+	.mes-tip {
+		width: 922px;
+		height: 792px;
+	}
+
+	.mes-name {
+		font-size: 40px;
+		line-height: 75px;
+	}
+
+	.mes-btn {
+		line-height: 75px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.people div {
+		margin: 3px 7px;
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+		font-size: 14px;
+	}
+
+	.people .peopleGet {
+		height: 26px;
+		line-height: 36px;
+		font-size: 14px;
+	}
+
+	.middle .middle-content .shake {
+		position: absolute;
+		top: 50%;
+		margin-top: -37px;
+		right: -4px;
+		width: 55px;
+		height: 74px;
+		max-width: 94px;
+		max-height: 120px;
+	}
+
+	.middle .random {
+		font-size: 94px;
+	}
+
+	.right>ul>li:nth-child(2)>ul>li,
+	.right>ul>li:nth-child(3)>ul>li,
+	.right>ul>li:nth-child(4)>ul>li,
+	.right>ul>li:nth-child(5)>ul>li,
+	.right>ul>li:nth-child(6)>ul>li {
+		line-height: 50px;
+	}
+
+	.right div {
+		margin: 2px 3px;
+		width: 32px;
+		height: 32px;
+		line-height: 45px;
+		font-size: 14px;
+	}
+
+
+	.mes-tip {
+		width: 922px;
+		height: 792px;
+	}
+
+	.mes-name {
+		font-size: 40px;
+		line-height: 75px;
+	}
+
+	.mes-btn {
+		line-height: 75px;
+	}
+}
